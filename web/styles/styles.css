@@ -50,8 +50,8 @@ footer img:hover {
 	position: relative;
 	background-color: #894e18;
 	color: #fff;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 5%;
+	margin-right: 5%;
 	margin-top: 50px;
 	padding: 5px;
 	text-align: center;
@@ -59,16 +59,21 @@ footer img:hover {
 	background-image: url('../assets/tabla.png');
 }
 
+.cuadro h2 {
+	font-size: 5vw;
+}
+
 .descripcion {
 	margin-top: 50px;
   	text-align: center;
+	
 }
 
 .descripcion-txt {
 	font-size: 25px;
 	text-align: justify;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 20%;
+	margin-right: 20%;
 	padding: 10px;
 }
 
@@ -83,8 +88,6 @@ footer img:hover {
 .descarga {
 	display: block;
 	position: relative;
-	margin-left: 100px;
-	margin-right: 100px;
 	margin-top: 50px;
 	padding: 10px;
 	text-align: center;
@@ -94,7 +97,7 @@ footer img:hover {
 	background-color: greenyellow; 
 	border-color: green;
 	width: 75%;
-	height: 75px;
+	height: 5%;
 	font-size: 25px;
 	font-family: Silkscreen;
 	border-radius: 30px;
@@ -136,7 +139,7 @@ footer img:hover {
 }
 
 .slideshow-container {
-	width: auto;
+	width: 100%;
 	height: auto;
 	position: relative;
 	align-items: center;
@@ -230,13 +233,14 @@ footer img:hover {
 }
 
 .marco {
-	width:"100px";
-	height:"100px";
+	width:100px;
+	height:100px;
 }
 
 .video {
     display: block;
     margin: 30px auto;
+	width: 100%;
 }
 
 .footer-container {
@@ -249,6 +253,7 @@ footer img:hover {
 
 .footer-content {
 	margin: 30px 30px 30px;
+	width: 100%;
 }
 
 ::-webkit-scrollbar {
@@ -264,4 +269,12 @@ footer img:hover {
 	background: #e0b54e;
 	background-image: url('../assets/tubo.png');
 	background-repeat: repeat repeat;
+}
+
+.logo {
+	max-width: 100%;
+}
+
+.base {
+	max-width: 100%;
 }
